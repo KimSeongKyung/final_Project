@@ -36,12 +36,13 @@
 </script>
 </head>
 <body>
-<h1>자유게시판</h1>
+<h1>비밀게시판🤫</h1>
 <table id="list" width="90%">
 <tr>
 	<th>Id</th>
 	<th>Title</th>
 	<th>Writer</th>
+	<th>Category</th>
 	<th>Content</th>
 	<th>Regdate</th>
 	<th>Edit</th>
@@ -52,6 +53,7 @@
 		<td>${u.getSeq()}</td>
 		<td>${u.getTitle()}</td>
 		<td>${u.getWriter()}</td>
+		<td>${u.getCategory()}</td>
 		<td>${u.getContent()}</td>
 		<td>${u.getRegdate()}</td>
 		<td><a href="editform.jsp?id=${u.getSeq()}">Edit</a></td>
@@ -62,3 +64,8 @@
 <br/><a href="addpostform.jsp">Add New Post</a>
 </body>
 </html>
+
+
+
+
+
