@@ -37,6 +37,7 @@
 </head>
 <body>
 <h1>비밀게시판🤫</h1>
+<p><a href="board/list">로그아웃</a></p>
 <table id="list" width="90%">
 <tr>
 	<th>Id</th>

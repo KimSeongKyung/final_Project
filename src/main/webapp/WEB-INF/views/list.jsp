@@ -37,6 +37,9 @@
   </script>
 </head>
 <body>
+<form method="post" action="../login/logout" class="form-signin">
+  <button style="float:right;" type='submit'>logout</button>
+</form>
 <h1>비밀게시판🤫</h1>
 <table id="list" width="90%">
   <tr>

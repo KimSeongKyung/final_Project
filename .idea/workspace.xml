@@ -9,27 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6a5de7f-bc65-4918-b138-e876120adca3" name="Changes" comment="modify2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/board/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/board/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/board/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/board/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/util/LoginCheckInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/board-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/user-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef99bc8b-c151-4b37-912b-ea56ba48fba1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ef99bc8b-c151-4b37-912b-ea56ba48fba1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="d6a5de7f-bc65-4918-b138-e876120adca3" name="Changes" comment="project5_1.5단계">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts.jsp" afterDir="false" />
     </list>
@@ -215,7 +196,7 @@
       <workItem from="1670565255474" duration="977000" />
       <workItem from="1670566261988" duration="112000" />
       <workItem from="1670566420395" duration="566000" />
-      <workItem from="1670567054208" duration="3061000" />
+      <workItem from="1670567054208" duration="6403000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <created>1670079264958</created>
@@ -245,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670500914844</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="project5_1.5단계">
+      <created>1670570943091</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670570943092</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +254,8 @@
     <MESSAGE value="create" />
     <MESSAGE value="modify" />
     <MESSAGE value="modify2" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify2" />
+    <MESSAGE value="project5_1.5단계" />
+    <option name="LAST_COMMIT_MESSAGE" value="project5_1.5단계" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -290,6 +279,11 @@
           <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp</url>
           <line>9</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp</url>
+          <line>137</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
