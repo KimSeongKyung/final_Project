@@ -1,4 +1,4 @@
-package com.spring.util;
+package com.example.user;
 
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;

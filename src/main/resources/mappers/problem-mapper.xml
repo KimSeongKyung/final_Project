@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/ mybatis-3-mapper.dtd">
+<mapper namespace="Problem">
+    <insert id="insertProblem">
+        insert into Problem (num, rank, lan, mem, time, memo, algorithm) values
+        (#{num} , #{rank} , #{lan} , #{mem}, #{time}, #{memo}, #{algorithm})
+
+    </insert>
+    <update id="updateProblem">
+        update Problem
+        set lan=#{lan}, mem=#{mem}, time=#{time}, memo=#{memo}, algorithm=#{algorithm} where seq=#{seq}
+    </update>
+    <delete id="deleteProblem">
+        delete from Problem where seq=#{seq}
+    </delete>
+    <select id="getProblem" resultType="problem">
+        select * from Problem where seq=#{seq}
+    </select>
+    <select id="getProblemList" resultType="problem">
+        select * from Problem order by seq desc
+    </select> </mapper>

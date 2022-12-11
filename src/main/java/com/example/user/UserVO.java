@@ -1,4 +1,4 @@
-package com.spring.board;
+package com.example.user;
 
 public class UserVO {
     private String userid;
